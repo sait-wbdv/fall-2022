@@ -17,17 +17,17 @@ export const postsPerPage = 10
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
 	{
+		title: 'Schedule',
+		route: '/schedule'
+	},
+	{
 		title: 'Courses',
 		route: '/courses'
 	},
 	{
 		title: 'Library',
 		route: '/library' 
-	}, 
-	{
-		title: 'House Rules',
-		route: '/house-rules' 
-	}, 
+	},
 	{
 		title: 'Live Stream',
 		route: 'https://sait-ca.zoom.us/j/89468563134' 
