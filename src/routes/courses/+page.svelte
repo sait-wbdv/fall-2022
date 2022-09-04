@@ -9,10 +9,12 @@
 
 <h1>Courses</h1>
 {#each courses as course}
+{#if course.type === 'technical'}
 <a href="courses/{course.code}">
 	<article>
 		<h2>{course.title}</h2>
 		<p>Days: {course.days}</p>
 	</article>
 </a>
+{/if}
 {/each}
