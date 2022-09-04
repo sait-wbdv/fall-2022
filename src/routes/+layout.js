@@ -18,3 +18,4 @@ export const load = async ({ url }) => {
 		throw error(500, err)
 	}
 }
+export const prerender = true
