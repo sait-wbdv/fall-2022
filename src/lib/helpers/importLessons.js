@@ -1,4 +1,4 @@
-const imports = Object.entries(import.meta.glob('../../../lib/content/courses/**/*.md'));
+const imports = Object.entries(import.meta.glob('../content/courses/**/*.md'));
 
 export const lessons = await Promise.all(
   imports.map(async ([path, resolver]) => {

@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit'
-import { lessons } from '../importLessons';
+import { lessons } from '$lib/helpers/importLessons.js';
 import { schedule } from '$lib/schedule'
 
 
