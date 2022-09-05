@@ -1,9 +1,9 @@
 <script>
 import { siteTitle } from '$lib/config'
-import { schedule } from '$lib/schedule'
-export let data
-
 </script>
+<svelte:head>
+	<title>{siteTitle}</title>
+</svelte:head>
 # WBDV Fall 2022
 ## Top Links!
 - [Program Schedule](https://sait-wbdv.netlify.app/) (and home page)
