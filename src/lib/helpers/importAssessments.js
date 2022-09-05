@@ -1,5 +1,5 @@
 
-const metaContent = Object.entries(import.meta.glob('../../../lib/content/assessments/**/*.md'));
+const metaContent = Object.entries(import.meta.glob('$lib/content/assessments/**/*.md'));
 
 export const assessments = await Promise.all(
   metaContent.map(async ([path, resolver]) => {

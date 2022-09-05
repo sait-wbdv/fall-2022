@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit'
-import { assessments } from '../importAssessments.js';
+import { assessments } from '$lib/helpers/importAssessments.js';
 import { dueDates } from '$lib/due-dates.js'
 
 export const load = async ({ params }) => {
