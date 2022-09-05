@@ -1,6 +1,6 @@
 const imports = Object.entries(import.meta.glob('../../../lib/content/courses/**/*.md'));
 
-export const posts = await Promise.all(
+export const lessons = await Promise.all(
   imports.map(async ([path, resolver]) => {
     const { metadata } = await resolver()
 

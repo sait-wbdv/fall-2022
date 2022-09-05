@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit'
-import { posts } from '../importLessons';
+import { lessons } from '../importLessons';
 import { schedule } from '$lib/schedule'
 
 
@@ -17,7 +17,7 @@ export const load = async ({ params }) => {
 		}
 		const date = schedule.flat().find((item) => item.day === parseInt(params.day) && item.code === code).date;
 		
-		const lesson = posts.find((item) => item.day === day && item.code === code)
+		const lesson = lessons.find((item) => item.day === day && item.code === code)
 		const lessonContent = await import(`../../../../lib/content/courses/${code}/${lesson.fileName}.md`);
 		
 		return {
