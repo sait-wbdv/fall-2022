@@ -10,4 +10,8 @@
   <p>Due: TBA</p>
 {/if}
 
+{#if data.meta.status === 'draft'}
+<p>This assessment has not been released.</p>
+{:else}
 {@html data.content}
+{/if}
