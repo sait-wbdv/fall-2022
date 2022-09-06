@@ -3,7 +3,7 @@
 header,
 footer {
 	font-family: var(--primaryFont);
-	padding: 2.5rem 2rem;
+	padding: .5rem 1rem;
 	
 	a {
 		text-decoration: none;
@@ -33,34 +33,44 @@ footer {
 }
 
 header {
-	background: var(--lightAccent);
+	background: var(--lighterAccent);
 	color: var(--darker);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.05), 
+              0px 2px 2px rgba(0,0,0,0.05), 
+              0px 4px 4px rgba(0,0,0,0.05), 
+              0px 8px 8px rgba(0,0,0,0.05);
 
 	@media (min-width: vars.$smMin) {
-		justify-content: center;
 		flex-wrap: wrap;
 		height: auto;
 	}
 
-	.site-title {
-		font-family: var(--accentFont);
-		font-size: 2.1rem;
-		line-height: 1;
-		color: inherit;
-		text-align: center;
-		margin: 0;
-		display: block;
-		font-size: 1.4rem;
-		font-weight: bold;
-
-		@media (min-width: vars.$smMin) {
-			width: 100%;
-			font-size: 1.6rem;
+	.logo {
+		display: flex;
+    font-size: 1.5rem;
+    line-height: 1;
+		img {
+			width: 4rem;
+			margin-right: 1rem;
 		}
-	}
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.site-title {
+			font-size: 2rem;
+			font-variant: small-caps;
+			font-family: var(--primaryFont)
+		}
+		.semester {
+			font-family: var(--codeFont)
+		}
+  }
+
 
 	.menu-button {
 		margin: 0;
@@ -142,9 +152,8 @@ header {
 			color: inherit;
 
 			ul {
-				margin: 1rem auto 0;
+				margin: 1rem;
 				padding-top: 0.5rem;
-				border-top: 1px solid var(--dark);
 				width: max-content;
 
 				li {
