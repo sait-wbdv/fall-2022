@@ -29,13 +29,13 @@
     {#if day.type === 'lesson' && day.status != 'draft'}
     <a href="courses/{day.code}/day-{day.day}">
       <article>
-        <h3 class="{day.code}">{day.codeLabel} - Day {day.day}</h3>
+        <h3 class="{day.code}">{day.codeLabel} - {day.title}</h3>
         <time>{day.date}</time>
       </article>
     </a>
     {:else if day.status === 'draft'}
     <article>
-      <h3 class="{day.code} unpublished">{day.codeLabel} - Day {day.day}</h3>
+      <h3 class="{day.code} unpublished">{day.codeLabel} - {day.title}</h3>
       <time>{day.date}</time>
     </article>
     {:else}
