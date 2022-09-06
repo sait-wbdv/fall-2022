@@ -8,11 +8,23 @@
 	<title>{courseLabel} Assessments</title>
 </svelte:head>
 
-<h1>{courseLabel} Assessments</h1>
+<h1>{courseLabel} Assignments</h1>
 {#if data.assessments.length}
 	{#each data.assessments as assessment}
-		{#if assessment.status === 'published'}
-			<a href="assessments/{assessment.slug}">
+		{#if assessment.type === 'assignment'}
+			{#if assessment.status === 'published'}
+				<a href="assessments/{assessment.slug}">
+					<article>
+						<h2>{assessment.title}</h2>
+						<p>Weight: {assessment.points}%</p>
+						{#if assessment.due}
+							<p>Due: {assessment.due}</p>
+						{:else}
+							<p>Due: TBA</p>
+						{/if}
+					</article>
+				</a>
+			{:else}
 				<article>
 					<h2>{assessment.title}</h2>
 					<p>Weight: {assessment.points}%</p>
@@ -22,17 +34,7 @@
 						<p>Due: TBA</p>
 					{/if}
 				</article>
-			</a>
-		{:else}
-			<article>
-				<h2>{assessment.title}</h2>
-				<p>Weight: {assessment.points}%</p>
-				{#if assessment.due}
-					<p>Due: {assessment.due}</p>
-				{:else}
-					<p>Due: TBA</p>
-				{/if}
-			</article>
+			{/if}
 		{/if}
 	{/each}
 {:else}
