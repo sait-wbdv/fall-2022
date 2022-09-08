@@ -3,7 +3,7 @@ title: Assignment 1 - Moodboard
 type: assignment
 points: 20
 ---
-
+**Due: Friday September 9th @ 11:59pm**
 ## Scenario
 
 You are starting out a new web development project and need to do some initial planning on what the look and feel of the site is going to be. Your client (client could be yourself) was very vague with their description of the design of their site and they did not give you any specific colors, fonts, or ui ideas. 
