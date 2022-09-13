@@ -1,5 +1,5 @@
 ---
-title: Assignment 2 - GitHub Project Board
+title: Assignment 1 - GitHub Project Board
 type: assignment
 points: 20
 ---
