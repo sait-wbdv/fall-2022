@@ -1,68 +1,54 @@
 ---
-title: Assignment 1 - Three Deployed GitHub Pages Templates
+title: Assignment 2 - GitHub Project Board
 type: assignment
 points: 20
 ---
 
 ## Details
-In this assignment, you will deploy three _distinct_ static website templates that could be customized for a fictitious business of your choice.
+In this assignment, you will track action items and to-dos in a GitHub Project (Beta) Board. It is comprised of all the tasks that were done in the Kanban Pizza Party activity. You will be able to make use of the skills practiced in this assignment in many of your future assignments. This is also an opportunity to work on your markdown syntax.
 
-**Scenario**: You have landed a new client! They want to choose a template for their new website at the next meeting. You want to impress them with three websites that are:
-
-- deployed (i.e. published) on GH Pages
-- visually distinct with respect to UX/UI
-- customized with the company name and logo
-  - the name can be made up
-  - the logo can be an icon from Font Awesome or similar source
+Practice organizing a project board based on a job that you are already familiar with. This entire assignment can be done within github, no code is necessary.
 
 ## Instructions
-
-1. Search online for three _distinct_ static website templates that could be customized for your selected client;
-2. Deploy each template to GH Pages, naming each repo "cpnt201-a1-[template-name]";
-3. Make at least three customizations to _each_ template **as separate commits**.
-    - At the end of this assignment, you should have made at least 12 commits; three for each of the three customizations, plus your initial commits (which are not counted for marks).
-
+1. Create a project in your account, also name it `CPNT-201-A1`
+2. Set up a new repository and name it `CPNT-201-A1`
+3. In the repository create a `README.md` (you can do this when you set up the repository)
+4. In your `README.md` add the following information:
+    - Your name
+    - The job title
+    - A brief general description of the job.
+    - An unordered list (3-5 items) of general responsibilities
+      - put this under a level 2 heading called "Responsibilities"
+5. In your project board, name the columns as relevant status' or categories of tasks (3+ columns)
+    - A Kanban can be used to just group things and not need to move tasks through todo states
+    - For example: does the job have prep, action, cleanup  tasks? Design the board to fit the job
+6. Create 5 project cards and organize them on your board
+    - Tasks should include:
+        - A "Context" or "Description" (level 3 heading with paragraph text below it): 1-4 sentences
+        - A "Definition of Done": Use markdown checkboxes with at least 1 item
+    - Tasks need to be made into issues and added to the repository
 ---
 
 ## Marking Rubric
 This assignment will be marked out of 20 points.
 
-### GitHub Setup: 4 points
-- Local name and email address set correctly in your config
-- GitHub Profile updated with:
-    - Profile photo
-    - Bio
-    - Location
-    - Optional: website, Twitter, etc
-
-### Distinctiveness: 4 points
-The three templates will collectively be scored on their visual distinctiveness according to the criteria listed above. Each template should offer a diverse choice for the client by:
-- being visually distinct from the other two templates;
-- representing, collectively, a wide variety of layout elements (cards, sliders, gallery, etc).
-
-### Each Template: 4 points (12 points total)
-Each individual template will be marked according to the following criteria.
-1. Functionality:
-    - Each template should be responsive, and
-    - have the potential to be a multi-page site.
-2. Deployment:
-    - Each template should be deployed using GitHub Pages (_not_ with a GH theme) and be viewable on a mobile device.
-3. Committed Changes:
-    - Your initial commit for each template should be the base template with no modifications. The commit message should be "Initial commit".
-    - There should be at least three additional commits (in addition to commit 1, your initial commit) that customize content or code. For example:
-        - page titles and headings (commit 2),
-        - page logo/icon (commit 3),
-        - primary navigation (commit 4).
-    - Each change should have a descriptive commit message (i.e. NOT "updated page").
-    - The changes themselves cannot break the design.
-
-Please include a link to the original template source, either in the project README or as a comment to your Brightspace submission.
+### Project Board and Repo Configuration: 5 points
+- Board and Repo connected
+- Columns setup
+### Readme: 5 points
+- Name
+- Description
+- Responsibilities list
+### 5 Project cards: 10 points
+- Context/description
+- Definition of Done.
+- Task list
+- Converted to Issue
 
 ---
 
 ## Submitting Your Assignment
 In order to receive a grade, you must:
-
-1. Deploy each template to a separate GitHub Pages repository named "cpnt201-a1-[template-name]".
-2. Zip your projects/repos and submit them to Brightspace.
-3. Include links to each GitHub repo _and_ GH Pages site as a comment with your Brightspace submission. You should have six links total. Points will be deducted for missing links.
+1. Submit a link to your Repository as a comment in Brightspace.
+    - Make sure your board is public so your instructors can access it.
+2. Along with the link, zip a screenshot of the project board in it's ready state and submit that as well
