@@ -27,7 +27,6 @@ Practice organizing a project board based on a job that you are already familiar
         - A "Context" or "Description" (level 3 heading with paragraph text below it): 1-4 sentences
         - A "Definition of Done": Use markdown checkboxes with at least 1 item
     - Tasks need to be made into issues and added to the repository
-
 ---
 
 ## Marking Rubric
