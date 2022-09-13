@@ -49,5 +49,6 @@ This assignment will be marked out of 20 points.
 
 ## Submitting Your Assignment
 In order to receive a grade, you must:
-1. Submit a link to your Project Board as a comment in Brightspace.
+1. Submit a link to your Repository as a comment in Brightspace.
     - Make sure your board is public so your instructors can access it.
+2. Along with the link, zip a screenshot of the project board in it's ready state and submit that as well
