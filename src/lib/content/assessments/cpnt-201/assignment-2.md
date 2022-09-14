@@ -1,5 +1,5 @@
 ---
-title: Assignment 2 - Three Deployed GitHub Pages Templates
+title: Assignment 2 - Three Deployed HTML5 Templates
 type: assignment
 points: 20
 ---
