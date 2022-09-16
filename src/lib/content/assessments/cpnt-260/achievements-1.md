@@ -21,10 +21,10 @@ Achievements will be marked differently than other Assignments in Brightspace:
 ### Dev Book Report
 Find a video or article about HTML/CSS that interests you. It should be current, helpful and come from a credible source.
 
-**Requirements**
+**Restrictions**
 - Videos should be 10 minutes or longer;
 - Articles should be 350 words or longer.
-- The reviewed resource should be on a single page. For example, you can't review the entire CSS Tricks website.
+- The reviewed resource should be on a single page. For example, you can't review the entire [CSS Tricks](https://css-tricks.com/) website.
 
 **Instructions**
 To receive marks you must:
@@ -57,7 +57,7 @@ Create a moodboard for one of your upcoming assignments or achievements.
 ### Codepen Challenge
 Find a Codepen that uses vanilla HTML, CSS and Javascript (optional) that interests you and refactor it into a single, working, valid HTML page.
 
-**Requirements**
+**Restrictions**
 - The Codepen author cannot be a SAIT student or instructor (find someone online with no relation to you);
 - The Codepen should not use SCSS, Typescript or any other non-browser safe technology (it won't work otherwise);
 - You cannot include any other files other than the `index.html` file. Any needed assets should be hosted online.
@@ -79,11 +79,12 @@ Find a Codepen that uses vanilla HTML, CSS and Javascript (optional) that intere
 ### Above and Beyond
 Find one or more HTML and/or CSS technologies not covered in class and demonstrate their use in an HTML page.
 
-**Requirements**
-You may choose one of the following for your HTML element and/or CSS technology:
+**Restrictions**
+You must choose one of the following for your HTML element and/or CSS technology:
 - Absolute positioning;
 - Embedded iframe;
 - Pseudo-elements;
+- [more here]
 
 **Instructions**
 1. Create a demo HTML page named `index.html` that clearly shows the usefulness of the elements/properties;
@@ -97,4 +98,25 @@ You may choose one of the following for your HTML element and/or CSS technology:
     - the GH repo;
     - the live demo on GH Pages;
 
+**Bonus**
+- You can do two Above and Beyonds in Round 1 for a total of 10 points!
+
 ---
+
+### Show and Tell
+Do a 5-minute talk on a topic related to the course. It could be:
+- A demo of something you built;
+- A tutorial on how to use a tool;
+- An awesome [thing here] you found online.
+- etc, etc.
+
+**Restrictions**
+- The length of your talk must be 5 minutes +/- 2.5 minutes;
+
+**Instructions**
+1. Book a time slot with your Instructor at least a day in advance;
+2. Build, prepare, etc
+3. Show and tell when the time comes!
+
+**Bonus**
+Double points for your first show and tell!
