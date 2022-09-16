@@ -12,14 +12,21 @@ Achievements will be marked differently than other Assignments in Brightspace:
 - You can choose from any of the following Achievements for this Round;
 - You will be graded according to the Requirements of the Achievement you've submitted;
 
+---
+
 ## Achievements
 
 ---
 
 ### Dev Book Report
-Find a video (> 5 mins) or article (> 350 words) about HTML/CSS that interests you. It should be current, helpful and come from a credible source.
+Find a video or article about HTML/CSS that interests you. It should be current, helpful and come from a credible source.
 
 **Requirements**
+- Videos should be 10 minutes or longer;
+- Articles should be 350 words or longer.
+- The reviewed resource should be on a single page. For example, you can't review the entire CSS Tricks website.
+
+**Instructions**
 To receive marks you must:
 1. Create a markdown file with the title `dev-book-report.md`;
 2. In this file include:
@@ -42,18 +49,23 @@ Create a 5-card GH Project (Beta) Board containing action items that you need to
 
 ---
 
-### Mood Board
+### Moodboard
 Create a moodboard for one of your upcoming assignments or achievements.
 
 ---
 
 ### Codepen Challenge
-Find a Codepen that uses vanilla HTML, CSS and Javascript that interests you and refactor it into a single, working, valid HTML page.
+Find a Codepen that uses vanilla HTML, CSS and Javascript (optional) that interests you and refactor it into a single, working, valid HTML page.
 
 **Requirements**
+- The Codepen author cannot be a SAIT student or instructor (find someone online with no relation to you);
+- The Codepen should not use SCSS, Typescript or any other non-browser safe technology (it won't work otherwise);
+- You cannot include any other files other than the `index.html` file. Any needed assets should be hosted online.
+
+**Instructions**
 1. Move the code inside the Codepen HTML panel to a `<body>` element of an empty HTML page named `index.html`;
 2. Move the code inside the CSS panel to a `<style>` element inside `<head>` element of the same HTML page;
-3. Move the code inside the JS panel to a `<script>` at the bottom of the `<body>` element of the HTML page;
+3. Move the code inside the JS panel, if it exists, to a `<script>` at the bottom of the `<body>` element of the HTML page;
 4. Confirm the page is working as expected;
 5. Push `index.html` to a GH repo named `codepen-challenge` and enable GH Pages;
 6. Zip `index.html` and submit the file to Brightspace;
@@ -65,12 +77,18 @@ Find a Codepen that uses vanilla HTML, CSS and Javascript that interests you and
 ---
 
 ### Above and Beyond
-Find one or more HTML element and/or CSS property not covered in class and demonstrate their use in an HTML page.
+Find one or more HTML and/or CSS technologies not covered in class and demonstrate their use in an HTML page.
 
 **Requirements**
+You may choose one of the following for your HTML element and/or CSS technology:
+- Absolute positioning;
+- Embedded iframe;
+- Pseudo-elements;
+
+**Instructions**
 1. Create a demo HTML page named `index.html` that clearly shows the usefulness of the elements/properties;
 2. Create a `README.md` and include:
-    - A title for your demo as a level 1 heading;
+    - a title for your demo as a level 1 heading;
     - instructions on how to use the demo, if needed;
     - all Attributions used to create `index.html` including sample code.
 3. Push your files to a GH repo named `above-and-beyond` and enable GH Pages;
