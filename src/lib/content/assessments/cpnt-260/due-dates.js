@@ -1,7 +1,7 @@
 export const cpnt260DueDates = [
   {
     slug: 'achievements-1',
-    due: 'Thursday, September 22 @ 11:59pm',
+    due: 'Thursday, September 22 @ 3pm',
     status: 'published'
   },
   {

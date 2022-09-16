@@ -72,6 +72,7 @@ Provide a clear indication of which option you've chosen in your README (see bel
   - Assignment name;
   - Author name;
   - A link to the GH Pages site
+- **Important**: Any attributions for code and/or assets you used that are not your own.
 - Use best practices with file/directory names and indentation:
   - 2 spaces per indent
   - See: [Files and Directories - Naming Conventions](https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984)
