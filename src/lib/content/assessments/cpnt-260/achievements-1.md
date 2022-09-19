@@ -63,13 +63,14 @@ Find a Codepen that uses vanilla HTML, CSS and Javascript (optional) that intere
 - You cannot include any other files other than the `index.html` file. Any needed assets should be hosted online.
 
 **Instructions**
-1. Move the code inside the Codepen HTML panel to a `<body>` element of an empty HTML page named `index.html`;
-2. Move the code inside the CSS panel to a `<style>` element inside `<head>` element of the same HTML page;
-3. Move the code inside the JS panel, if it exists, to a `<script>` at the bottom of the `<body>` element of the HTML page;
-4. Confirm the page is working as expected;
-5. Push `index.html` to a GH repo named `codepen-challenge` and enable GH Pages;
-6. Zip `index.html` and submit the file to Brightspace;
-7. As a comment in your submission, include links to:
+1. Copy and paste the code of [this empty HTML file](https://gist.github.com/acidtone/6871979b4f4b04375edb6312dcdba5b7) into a file named `index.html`. Place this file inside it's own repo named `codepen-challenge`.
+2. Move the code inside the Codepen HTML panel to a `<body>` element of an empty HTML page named `index.html`;
+3. Move the code inside the CSS panel to a `<style>` element inside `<head>` element of the same HTML page;
+4. Move the code inside the JS panel, if it exists, to a `<script>` at the bottom of the `<body>` element of the HTML page;
+5. Confirm the page is working as expected;
+6. Push `index.html` to a GH repo named `codepen-challenge` and enable GH Pages;
+7. Zip `index.html` and submit the file to Brightspace;
+8. As a comment in your submission, include links to:
     - the GH repo;
     - the live demo on GH Pages;
     - the original Codepen.
