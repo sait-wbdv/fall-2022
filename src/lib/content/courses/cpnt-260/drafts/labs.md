@@ -5,3 +5,5 @@
 4. Complete the exercise while following the pair programming Dos and Donts!
 
 ### Color cascade
+
+### Links more clickable
