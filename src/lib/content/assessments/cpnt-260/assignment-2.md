@@ -19,6 +19,8 @@ For example, you may write a card for:
 
 The content should make sense and be of potential value to the (hypothetical) reader.
 
+- See: [Tony's "moodboard" on cards](https://acidtone.github.io/code-journal/#july-16th-2022) for some payout examples
+
 **Note: you will _NOT_ need the full information for this assignment. Only content needed to build your card is required.**
 
 ---
