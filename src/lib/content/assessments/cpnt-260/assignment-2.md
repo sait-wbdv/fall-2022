@@ -13,6 +13,7 @@ The goal of this assignment is to summarize information for the user. If they wa
 
 For example, you may write a card for:
 - a blog post on your portfolio website;
+- an item in an online store;
 - a how-to article on your favourite hobby;
 - a Team card for an employee/classmate/you/etc.
 - etc.
@@ -28,7 +29,7 @@ The content should make sense and be of potential value to the (hypothetical) re
 ## Instructions
 1. Write a short heading and paragragh (max 50 words) for your card;
 2. Select an image for your card;
-    - This image can be a placeholder served by Lorem Picsum or similar image generator.
+    - This image can be a placeholder served by [Lorem Picsum](https://picsum.photos/) or similar image generator.
 2. Use valid HTML and CSS to make a card of information that displays properly on desktop and mobile;
 3. Place your card in a validated HTML file named `index.html` (CSS may be embedded in a `style` element in the `head` of `index.html`).
 
@@ -59,6 +60,7 @@ Your content should be responsive and accessible to screen readers:
 > I can [`create and account`|`learn the guitar`|`see if it supports HDMI 2`].
 
 - [ ] Entire Card should be clickable with no gaps;
+    - Card can link to any valid external webpage.
 - [ ] The Card should have a visible boundary;
 - [ ] Clickable area should not exceed the Card boundary;
 - [ ] No links should be used inside the Card;
@@ -66,7 +68,7 @@ Your content should be responsive and accessible to screen readers:
 
 ### Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
-- Use of the `figure` element instead of `article`, OR
+- Use of the `figure` and `ficaption` elements instead of `article` and `p`, OR
 - At least two of the following CSS properties:
     - [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
     - [`mix-blend-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)
