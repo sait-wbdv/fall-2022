@@ -60,7 +60,12 @@ Show off your coding skills by using ONE (use of more than one does not guarante
 - An image, that is not distorted and does not hurt page usability, OR;
 - An icon font, OR; 
 - A definition list, OR;
-- Google Fonts for your typefaces.
+- Google Fonts for your typefaces, OR;
+- Get fancy: Add more visual hierarchy to your headings with each of the following "fancy" declarations:
+    - [`font-variant`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant): Used for setting small caps;
+    - [`letter-spacing`](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing): Great for spacing letters in headings, OR;
+- Responsive text using [`clamp()`](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp), OR;
+- Customize your list styling.
 
 Provide a clear indication of which option you've chosen in your README (see below):
 - Which did you choose?
