@@ -2,6 +2,8 @@
 	<title>Library</title>
 </svelte:head>
 
+# Library
+
 **Important**: Don't forget to attribute sources in your project READMEs.
 
 SAIT (and the rest of the world) have strict policies for copyright. This is a collection of openly licensed content that you may use in your projects and assignments.
@@ -24,7 +26,6 @@ Thanks to all current and past students that have contributed to this list.
 - [Flickr Creative Commons](https://www.flickr.com/creativecommons/)
 - [Pngtree](https://pngtree.com/so/free-download) [[[License](https://pngtree.com/legal/license-terms)]
 - [Stock Snap](https://stocksnap.io/) [[License](https://stocksnap.io/license)]
-- [Landing Stock](https://landingstock.com/)  [License: "Attribution not required. Free for personal and commercial use"]
 - [Nappy](https://www.nappy.co/) [[License](https://www.nappy.co/license)]
 - [DrawKit](https://www.drawkit.io/) [[License](https://www.drawkit.io/license)]
 - [Humaans](https://www.humaaans.com/) [[License](https://creativecommons.org/share-your-work/public-domain/cc0/)]
