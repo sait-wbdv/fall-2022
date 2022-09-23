@@ -1,5 +1,5 @@
 ---
-title: Assignment 2 - Three Deployed GitHub Pages Templates
+title: Assignment 2 - Three Deployed HTML5 Templates
 type: assignment
 points: 20
 ---
@@ -18,7 +18,7 @@ In this assignment, you will deploy three _distinct_ static website templates th
 ## Instructions
 
 1. Search online for three _distinct_ static website templates that could be customized for your selected client;
-2. Deploy each template to GH Pages, naming each repo "cpnt201-a1-[template-name]";
+2. Deploy each template to GH Pages, naming each repo "cpnt201-a2-[template-name]";
 3. Make at least three customizations to _each_ template **as separate commits**.
     - At the end of this assignment, you should have made at least 12 commits; three for each of the three customizations, plus your initial commits (which are not counted for marks).
 
@@ -63,6 +63,6 @@ Please include a link to the original template source, either in the project REA
 ## Submitting Your Assignment
 In order to receive a grade, you must:
 
-1. Deploy each template to a separate GitHub Pages repository named "cpnt201-a1-[template-name]".
+1. Deploy each template to a separate GitHub Pages repository named "cpnt201-a2-[template-name]".
 2. Zip your projects/repos and submit them to Brightspace.
 3. Include links to each GitHub repo _and_ GH Pages site as a comment with your Brightspace submission. You should have six links total. Points will be deducted for missing links.

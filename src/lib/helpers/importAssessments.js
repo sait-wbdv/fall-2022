@@ -8,12 +8,10 @@ export const assessments = await Promise.all(
     const pathArray = path.split('/')
     const slug = pathArray.pop().slice(0,-3);
     const code = pathArray.pop();
-    
-    
+        
     let status, due;
     
     const courseDueDates = dueDates.find((course) => code === course.code).dueDates;
-
     const lessonDueDate = courseDueDates.find((lesson) => slug === lesson.slug);
     status = lessonDueDate?.status;
     due = lessonDueDate?.due;

@@ -11,7 +11,7 @@
 <h1>{courseLabel} Assignments</h1>
 {#if data.assessments.length}
 	{#each data.assessments as assessment}
-		{#if assessment.type === 'assignment'}
+		{#if assessment.type === 'assignment' || assessment.type === 'achievements'}
 			{#if assessment.status === 'published'}
 				<a href="assessments/{assessment.slug}">
 					<article>
