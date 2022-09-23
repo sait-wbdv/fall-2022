@@ -94,8 +94,8 @@ export const schedule = [
 		{
 			date: '2022-09-23',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 4			
+			code: 'dsgn-270',
+			day: 5			
 		}
 	],
 	// Week 4
@@ -103,8 +103,8 @@ export const schedule = [
 		{
 			date: '2022-09-26',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 5
+			code: 'dsgn-270',
+			day: 6
 		},
 		{
 			date: '2022-09-27',
@@ -148,19 +148,19 @@ export const schedule = [
 			date: '2022-10-05',
 			type: 'lesson',
 			code: 'dsgn-270',
-			day: 5
+			day: 7
 		},
 		{
 			date: '2022-10-06',
 			type: 'lesson',
 			code: 'dsgn-270',
-			day: 6
+			day: 8
 		},
 		{
 			date: '2022-10-07',
 			type: 'lesson',
 			code: 'cpnt-201',
-			day: 6
+			day: 4
 		}
 	],
 	// Week 6
@@ -174,7 +174,7 @@ export const schedule = [
 			date: '2022-10-11',
 			type: 'lesson',
 			code: 'cpnt-201',
-			day: 7
+			day: 5
 		},
 		{
 			date: '2022-10-12',
