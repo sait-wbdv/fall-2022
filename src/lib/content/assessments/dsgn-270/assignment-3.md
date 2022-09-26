@@ -1,8 +1,10 @@
 ---
-title: Assignment 3 - SVG Logo Design
-type: assignment
-points: 20
+title: DSGN 270  Assignment 3 - SVG Logo Design
+description: Create a logo using an svg. Optimize it and deploy it to a web page
 ---
+
+- Weight: 20%
+
 ## Scenario
 
 You have been hired to create an svg logo for a client's website. The client wants the logo to be able to be able to have both monochrome and coloured versions. You have complete creative control over the design.
@@ -33,13 +35,13 @@ This assignment will be marked out of 20 points, which will be given for each of
 - No extraneous paths
 - Makes use of boolean groups
 - Is an identifiable logo
-    - A guideline for design: a logo with at least 3 closed paths
+  - A guideline for design: a logo with at least 3 closed paths
 
 ### Design Variations: 5 points
 
 - SVG code quality
 - Uses one of the variations specified in the instructions
-    - Variations should be distinct and non-trivial
+  - Variations should be distinct and non-trivial
 
 ### SVG in HTML: 5 points
 
@@ -47,9 +49,10 @@ This assignment will be marked out of 20 points, which will be given for each of
 - Colour styled using css
 - Use at least 1 other css property to enhance your design on a web page
 - Logos should be responsive
-    - All logos should be entirely visible when the page loads without the need to scroll.
+  - All logos should be entirely visible when the page loads without the need to scroll.
 
 ### Documentation: 5 points
+
 - README file that includes:
   - Description of your design concept **important**
 - Journal Entry describing your process/journey completing the assignment
@@ -58,11 +61,13 @@ This assignment will be marked out of 20 points, which will be given for each of
   - Screencaps of progress, inspiration and mood boards
 
 ## General
+
 Points will be deducted for:
+
 - not following file and directory conventions
-    - CSS in a dedicated `/assets/css` directory
-    - Images (including svg) in a dedicated `/assets/images` directory
-    - Javascript in a dedicated `/assets/js` directory
+  - CSS in a dedicated `/assets/css` directory
+  - Images (including svg) in a dedicated `/assets/images` directory
+  - Javascript in a dedicated `/assets/js` directory
 - General code quality
 - Logos that are similar to the ones provided in class
 
