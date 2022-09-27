@@ -1,5 +1,5 @@
 ---
-title: Assignment 3 - 404 page not found
+title: Assignment 3 - 404 Page Not Found
 type: assignment
 points: 10
 ---
@@ -37,7 +37,8 @@ The goal of this assignment is to notify a hypothetical user that their page was
 Build a horizontal primary navigation menu that:
 - [ ] is accessible (see below);
 - [ ] uses colour and the box model to make links obviously and easily clickable;
-- [ ] uses a `<ul>` as a flex container and `<li>` as items.
+- [ ] uses a `<ul>` as a flex container and `<li>` as items;
+- [ ] justify the links to fit your design.
 
 ### Sticky footer
 Build a footer sticks to the bottom of a short page:
@@ -47,7 +48,8 @@ Build a footer sticks to the bottom of a short page:
 - Footer:
     - [ ] Copyright year with `&copy;`
     - [ ] Site owner
-    - [ ] Sticks to the bottom
+    - [ ] Sticks to the bottom of a short page
+    - [ ] Scrolls normally of a long page
 
 ### Responsiveness and Accessibility
 Your content should be responsive and accessible to screen readers:
