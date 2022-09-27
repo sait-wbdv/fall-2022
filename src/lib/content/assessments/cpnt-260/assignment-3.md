@@ -40,7 +40,7 @@ Build a horizontal primary navigation menu that:
 - [ ] uses a `<ul>` as a flex container and `<li>` as items;
 - [ ] justify the links to fit your design.
 
-### Sticky footer
+### 2. Sticky footer
 Build a footer sticks to the bottom of a short page:
 - [ ] Page content: 404 page not found
     - You may use different content;
@@ -51,7 +51,7 @@ Build a footer sticks to the bottom of a short page:
     - [ ] Sticks to the bottom of a short page
     - [ ] Scrolls normally of a long page
 
-### Responsiveness and Accessibility
+### 3. Responsiveness and Accessibility
 Your content should be responsive and accessible to screen readers:
 - [ ] All navigation should be wrapped in a `<nav>` element;
     - `<nav>` can be nested inside a `<header>`
@@ -79,7 +79,7 @@ Provide a clear indication of which option you've chosen in your README (see bel
 - Which did you choose?
 - What file(s) and line number(s) can it be found?
 
-### Documentation and Code Quality
+### 5. Documentation and Code Quality
 In addition to the standard requirements, include the following in your `README.md`:
 - A helpful resource that helped you with this assignment;
 - the search term you would use to find this resource again.
