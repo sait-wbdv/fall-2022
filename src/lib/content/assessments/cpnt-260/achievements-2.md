@@ -32,12 +32,17 @@ Watch/read one of the below tutorials and recreate the [thingy] with your own co
 **Submissions needed**
 Got a good tutorial you'd like to submit for marks? Ask your Instructor about adding it onto the list.
 
+**Bonus**
+- You can do two Build Session in Round 1 for a total of 10 points!
+
 ---
 
 ## Plugin Away
 3rd-party plugin/library implementation. Show that you've installed and implemented a 3rd party plugin or service from the following list:
 - **Contact form** using [formspree.io](https://formspree.io/) or similar
     - Add a working contact form on your website that emails you submissions;
+- Material design?
+- **[more here]**
 
 **Instructions**
 1. Create your project in a `index.html` file with a `README.md`, including;
@@ -45,6 +50,12 @@ Got a good tutorial you'd like to submit for marks? Ask your Instructor about ad
     - instructions on how to use the demo, if needed;
     - all Attributions used to create `index.html` including sample code, tutorials, etc.
 3. Name your repo after the technology you used;
+
+**Submissions needed**
+Submissions needed Got a good tutorial you’d like to submit for marks? Ask your Instructor about adding it onto the list.
+
+**Bonus**
+- You can do two Above and Beyonds in Round 1 for a total of 10 points!
 
 ---
 
