@@ -145,22 +145,22 @@ export const schedule = [
 			day: 10
 		},
 		{
-			date: '2022-10-05',
-			type: 'lesson',
-			code: 'dsgn-270',
-			day: 7
-		},
-		{
-			date: '2022-10-06',
-			type: 'lesson',
-			code: 'dsgn-270',
-			day: 8
-		},
-		{
 			date: '2022-10-07',
 			type: 'lesson',
 			code: 'cpnt-201',
 			day: 4
+		},
+		{
+			date: '2022-10-11',
+			type: 'lesson',
+			code: 'cpnt-201',
+			day: 5
+		},
+		{
+			date: '2022-10-05',
+			type: 'lesson',
+			code: 'dsgn-270',
+			day: 7
 		}
 	],
 	// Week 6
@@ -171,10 +171,10 @@ export const schedule = [
 			label: 'Thanksgiving'
 		},
 		{
-			date: '2022-10-11',
+			date: '2022-10-06',
 			type: 'lesson',
-			code: 'cpnt-201',
-			day: 5
+			code: 'dsgn-270',
+			day: 8
 		},
 		{
 			date: '2022-10-12',
