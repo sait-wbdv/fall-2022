@@ -5,8 +5,6 @@ type: assignment
 points: 20
 ---
 
-- Weight: 20%
-
 ## Scenario
 
 You have been hired to create an svg logo for a client's website. The client wants the logo to be able to be able to have both monochrome and coloured versions. You have complete creative control over the design.
