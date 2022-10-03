@@ -27,10 +27,13 @@ Watch/read one of the below tutorials and recreate the [thingy] with your own co
 - [Responsive image gallery with CSS Grid](https://www.youtube.com/watch?v=tFKrK4eAiUQ) by Jen Simmons
     - You may use Lorem Picsum for this tutorial;
 - [Making an Accessible Hamburger Menu](http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu) by Ashley Sheridan
+    - You can stop when she starts adding Javascript
+    - You can optionally follow [Responsive Navbar Tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg) by Web Dev Simplified
 - **[more here]**
 
 **Submissions needed**
 Got a good tutorial you'd like to submit for marks? Ask your Instructor about adding it onto the list.
+- **Bonus: 5 points** for anyone who finds and adequate tutorial to add to the list.
 
 **Bonus**
 - You can do two Build Session in Round 1 for a total of 10 points!
@@ -53,6 +56,7 @@ Got a good tutorial you'd like to submit for marks? Ask your Instructor about ad
 
 **Submissions needed**
 Submissions needed Got a good tutorial you’d like to submit for marks? Ask your Instructor about adding it onto the list.
+- **Bonus: 5 points** for anyone who finds and adequate plugin to add to the list.
 
 **Bonus**
 - You can do two Above and Beyonds in Round 1 for a total of 10 points!

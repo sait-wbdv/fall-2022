@@ -37,7 +37,7 @@ The goal of this assignment is to build a Hero Section that directs the user to 
 - [ ] All Hero content wrapped in a `<header>` element for screen readers;
 - [ ] One level 1 heading for your Hero topic (unless it is the Site Title) in a Display font; this is _in addition_ to the Call-to-Action;
 - [ ] Heading `font-size` should be large and obvious;
-- [ ] Full-viewport background CSS image that runs to the left, top and right edges of the screen;
+- [ ] Full-viewport background CSS image that runs to the left, top and right edges of the screen and should take up at least 50% of the screen;
 - [ ] Call-to-Action (see below) added in a balanced layout with heading text;
 - [ ] Add any additional content that does not interfere with the rest of the assignment requirements;
 
@@ -45,7 +45,7 @@ The goal of this assignment is to build a Hero Section that directs the user to 
 - [ ] At least one paragraph/phrase (max 50 words) accompanying the CTA link;
 - [ ] Optional: additional level 2 or 3 heading for CTA;
 - [ ] Line length should not exceed 40 characters on wide screens;
-- [ ] The CTA card should have a visible boundary;
+- [ ] The CTA card should appear self-contained and separate from Hero title (i.e. doesn't need to have a visible boundary);
 - [ ] Only clickable area should be a link (or two) styled to look like a button (i.e. make it look obviously clickable);
 - [ ] There should be a custom colour defined for Call-to-Action link (see "60-30-10" comment above);
 - [ ] Hover effect added to button to confirm to the user that it's clickable;
