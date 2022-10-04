@@ -61,7 +61,7 @@ Misc site elements that bring the room together:
     - Named `404.html` in the root of your project;
     - Large, decorative image relating to your 404 Page;
     - Note: This 404 page will not be implemented for this project
-- Contact form driven by Formspree or similar service;
+- **Contact form** driven by Formspree or similar service;
 
 ### 5. Above and Beyond
 Choose to complete _ONE_ of the following:
