@@ -98,3 +98,13 @@ Do a 5-minute talk on a topic related to the course. It could be:
 
 **Bonus**
 Double points for your first show and tell!
+
+---
+
+### Devops
+Complete one of the following tasks:
+- **Custom Domain on HTTPS: _5 points_**
+    - Deploy a web site or app with a custom domain
+        - Sign up for the [GitHub Student Developer Pack](https://education.github.com/pack) to get a free domain with NameCheap
+    - Must be deployed to a live server such as GH Pages, Heroku or similar
+    - Security certificate must be used to deploy domain on HTTPS
