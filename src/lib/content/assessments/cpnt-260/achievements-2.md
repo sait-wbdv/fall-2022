@@ -26,9 +26,11 @@ Submission Instructions:
 Watch/read one of the below tutorials and recreate the [thingy] with your own content.
 - [Responsive image gallery with CSS Grid](https://www.youtube.com/watch?v=tFKrK4eAiUQ) by Jen Simmons
     - You may use Lorem Picsum for this tutorial;
-- [Making an Accessible Hamburger Menu](http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu) by Ashley Sheridan
-    - You can stop when she starts adding Javascript
-    - You can optionally follow [Responsive Navbar Tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg) by Web Dev Simplified
+- Responsive hamburger menu - follow ONE of the following tutorials
+    - [Making an Accessible Hamburger Menu](http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu) by Ashley Sheridan
+        - You can stop when she starts adding Javascript
+    - [Responsive Navbar Tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg) by Web Dev Simplified
+    - [How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by Codefoxx
 - **[more here]**
 
 **Submissions needed**
@@ -44,7 +46,8 @@ Got a good tutorial you'd like to submit for marks? Ask your Instructor about ad
 3rd-party plugin/library implementation. Show that you've installed and implemented a 3rd party plugin or service from the following list:
 - **Contact form** using [formspree.io](https://formspree.io/) or similar
     - Add a working contact form on your website that emails you submissions;
-- Material design?
+- [Bulma CSS Framework](https://bulma.io/documentation/overview/start/)
+- [RevealJS HTML Presentation Framework](https://revealjs.com/)
 - **[more here]**
 
 **Instructions**
