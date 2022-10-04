@@ -46,7 +46,7 @@ The following persistent layout elements must exist on every page of the project
 - Global Navigation
     - Current page highlighted
     - Hover effects added
-    - Mobile hamburger navigation menu
+    - Mobile navigation menu (could be a hamburger, or just a vertical menu, for example);
 - Sticky footer
     - @copy; 2022 [Team name]
     - Doormat navigation 
