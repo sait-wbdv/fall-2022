@@ -18,7 +18,6 @@ Your instructor will assign the groups. This assignment should be able to be com
 
 The goals and content of the repository and paired coding session are up to you. Some suggestions:
 
-- [Customize a static html template](/labs/git/deploy-static-template)
 - Collaborate on a joint journal entry
 - Write a poem together
 - Pick a topic to Google and compile the best search results
