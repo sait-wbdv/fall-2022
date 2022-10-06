@@ -21,30 +21,29 @@ Achievements will be marked differently than other Assignments in Brightspace:
 
 ### Resolve Multiple Merge Conflicts
 
-Practice making and resolving more merge conflicts. Instead of resolving a single conflict in a merge resolve 5 conflicts across multiple merges (at least 2).
-
-**Bonus point if the resolution was from a real conflict that you resolved properly**
+Practice resolving merge conflicts. These can be from actual instances in projects or you can create them on your own in a dedicated repo.
 
 #### Instructions
 
 To receive marks you must:
 
-1. Choose a repo for making merge conflicts
-2. Create multiple conflicts in 2-3 merges following the instructions from class and assignment 3.
-   - this can be done on your own or with a partner
-3. Create a heading in your readme for merge conflicts and provide links as was done in assignment 3
+1. Pick at least 1 repo where you resolved merge conflicts (starting on october 6th and it cannot be your CPNT-201-A3 repo)
+2. Resolve 5 merge conflicts following the instructions from class and assignment 3.
+3. In Brightspace submit links to all the merge conflicts commits along with a brief description of the commit.
 4. Submit a link to your repo
 
 ### Merge work from a "development" branch into main
 
-It is often good practice to open pull requests to move code to a main branch. You can do this in any project **that is not currently being marked**.
+It is often good practice to open pull requests to move code to a main branch. Practice opening pull requests to move code into your main branch. Make use of the **squash and merge** option where appropriate.
+
+- This must include 5 commits in 1 or more pull requests
 
 #### Instructions
 
 1. Open up a new branch with `git checkout -b branch-name` and make changes to your code in it
 2. Push the changes to the remote branch
 3. Open a pull request and merge the code into your main branch
-4. In the readme, add a heading labelling the achievement and add a link to the pull request
+4. In your brightspace submission, add a link to your pull request
 
 ### Use git revert, git reset, and git rm
 
