@@ -1,6 +1,6 @@
 ---
-title: UI Design achievements
-type: achievement
+title: UI Design Achievements
+type: assignment
 points: 20
 ---
 
