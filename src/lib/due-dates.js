@@ -1,6 +1,7 @@
 import { cpnt201DueDates } from '$lib/content/assessments/cpnt-201/due-dates.js'
 import { dsgn270DueDates } from '$lib/content/assessments/dsgn-270/due-dates.js'
 import { cpnt260DueDates } from '$lib/content/assessments/cpnt-260/due-dates.js'
+import { cpnt262DueDates } from '$lib/content/assessments/cpnt-262/due-dates.js'
 
 export const dueDates = [
   {
@@ -14,5 +15,9 @@ export const dueDates = [
   {
     code: 'cpnt-260',
     dueDates: cpnt260DueDates
+  },
+  {
+    code: 'cpnt-262',
+    dueDates: cpnt262DueDates
   },
 ]
