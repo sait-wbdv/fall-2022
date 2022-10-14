@@ -57,3 +57,28 @@ Do a 5-minute talk on a topic related to the course. It could be:
 
 **Bonus**
 Double points for your first show and tell!
+
+
+### Javascript Book Report
+Find a video or article about Javascript that interests you. It should be current, helpful and come from a credible source.
+
+**Restrictions**
+- Videos should be 10 minutes or longer;
+- Articles should be 350 words or longer.
+- The reviewed resource should be on a single page. For example, you can't review the entire [James Quick blog](https://www.jamesqquick.com/blog/).
+
+**Instructions**
+To receive marks you must:
+1. Create a markdown file with the title `js-book-report.md`;
+2. In this file include:
+    - The title of the video/article as an level 1 heading;
+    - The name of the author;
+    - The date the video/article was published;
+    - A link to the resource;
+    - Answers to the following questions (150 words max)
+        - Why does this video/article interest you?
+        - Given the date of publication, is it still relevant?
+        - How do you know the author is credible?
+3. Push `js-book-report.md` to a GH repo or a gist;
+4. Zip `js-book-report.md` and submit the file to Brightspace;
+5. As a comment in your submission, include a link to the repo/gist as a comment in your submission;
