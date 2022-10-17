@@ -1,45 +1,57 @@
 ---
-title: Assignment 1 - Buttons and Events
+title: Assignment 1 - Push of a button
 type: assignment
 points: 5
 ---
 
-In this assignment, you will be creating a column of body text with HTML and CSS. The content should be original. While you can use open-source content as inspiration, it should be unique and on-topic.
+In this assignment, you will create a DOM variable for a button, add an event listener and modify a page when the button is clicked.
 
-## Content Topic
-Your button may cover any topic of your choice and does not have to relate to a real-life scenario. 
-
-For example, you may write:
-- your own bio for your portfolio website;
-- a fictional (very) short story;
-- a how-to article on your favourite hobby;
-- a review of a book/movie/article/hiking trail;
-- an About page for a hypothetical client website;
-- a entry for your coding journal.
-
-The content should make sense and be of potential value to the (hypothetical) reader.
+## Button action
+Your button may perform an action of your choice, such as print:
+- A random item in an array;
+- A greeting to the user;
+- A calculation;
 
 ---
 
-## Instructions and Rubric
-1. Write at least 150 words (to a maximum of 300 words) on your topic;
-2. Use valid HTML and CSS to make a column of [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content);
-3. Place your content in a validated HTML file named `index.html` (CSS may be embedded in a `style` element in the `head` of `index.html`).
-
-**Each of the following requirements will be worth 2 points** for a total of 10 points. 
+## Instructions
+1. Create a `<button>` and empty `<p>` element (or similar) on an HTML page;
+2. Create HTML variables for each element;
+3. Using an Event Listener and callback function, change the content of the `<p>` when the button is clicked;
+3. Place your app in a validated HTML file named `index.html`. JS may be either be either:
+    - embedded in a `script` element before the `</body>`, OR;
+    - linked as an external script in the `<head>` of the document.
 
 ---
+## Marking Rubric
+**Each of the following requirements will be worth 1 point** for a total of 5 points.
 
-### 
+### Button element
+- [ ] Create a valid `<button>` element on a page;
+- [ ] Style the button so that it doesn't use default borders, colours, padding, etc;
+- [ ] Add `:hover` and `:active` styles to the button;
+- [ ] Create a Javascript variable that contains your button, using `document.querySelector()` with a selector of your choice;
 
-### 
+### Event listener with callback function
+- [ ] Create a named callback function that will modify your page;
+- [ ] Add an event listener to your button that invokes your callback function when the button is clicked;
+- [ ] Use a `Number`, `String` or `Array` method to modify a value using the callback function, such as:
+    - `Number.toFixed()`;
+    - `String.substr()`;
+    - `Array.join()`.
 
-### 
-
+### Document modification
+- [ ] Use `Element.innerHTML()` to change the content of a DOM element;
+- [ ] Use template literals to wrap content inside a new HTML element that's not already on the page;
 
 ### Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
-
+- Use `prompt()` to print a dynamic message to the page, OR;
+- Use `Element.classList()` to add or change an element's class attribute, OR;
+- Add an event listener to a form control other than a button:
+    - checkbox;
+    - radio button;
+    - select menu.
 
 Provide a clear indication of which option you've chosen in your README (see below):
 - Which did you choose?
@@ -63,4 +75,3 @@ Provide a clear indication of which option you've chosen in your README (see bel
 - Include the following as a comment in your Brightspace submission:
   - GH repo
   - GH Pages site
-
