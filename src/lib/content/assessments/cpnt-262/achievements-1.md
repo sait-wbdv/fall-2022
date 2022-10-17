@@ -27,7 +27,7 @@ Submission Instructions:
 
 ---
 
-### Plugin Away
+### 1. Plugin Away
 3rd-party plugin/library implementation. Show that you've installed and implemented a 3rd party plugin or service from the following list:
 - Suggestions for beginners:
     - [ChartJS](https://www.chartjs.org/): Simple yet flexible JavaScript charting for designers & developers.
@@ -46,7 +46,7 @@ Submission Instructions:
 
 ---
 
-### Before and After
+### 2. Before and After
 Show your knowledge of Javascript `Number`, `String` and `Array` methods and properties.
 
 **Instructions**
