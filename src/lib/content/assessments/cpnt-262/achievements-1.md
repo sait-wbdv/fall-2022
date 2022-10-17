@@ -46,4 +46,61 @@ Submission Instructions:
 
 ---
 
-### More to come!
+### Before and After
+Show your knowledge of Javascript `Number`, `String` and `Array` methods and properties.
+
+**Instructions**
+1. Create an empty `index.html` page;
+2. Choose a `Number`, `String` or `Array` achievement below; 
+2. Complete the chosen achievement as either:
+    - embedded Javascript in a `<script>` element just before the `</body>` tag, OR;
+    - an external `client.js` (or similar) file linked in the `<head>` with a deferred `<script>` element.
+3. In your Javascript, log an initial `Number`, `String` or `Array` value (of your choice) to the console with the "Before" label as a first argument:
+    ```js
+    const number = 4;
+    console.log("Before", number);
+    ```
+4. Modify your initial value using at least three methods or properties from the relevant list below:
+    ```js
+    const squared = number ** 2;
+    const remainder = number % Math.PI;
+
+    console.log("After - squared", squared);
+    console.log("After - remainder", remainder);
+    ```
+    - You may log multiple "After" values or just one if you're modifying the same value multiple times;
+5. Zip, push and submit as normal to Achievements Round 1.
+
+**You may submit one, two, or three of the following achievements for Round 1 for 3 points each.**
+
+**Number Achievement**
+Display or modify your chosen `number` with at least **three** of the following:
+- Convert a `number` to a string with `Number.toString()`;
+- Convert a `number` to exponential notation with `Number.toExponential()`;
+- Convert a `number` to a string with a given number of decimals with `Number.toFixed()`;
+- Convert a `number` to a given number of floating point decimals with `Number.toPrecision()`;
+- Convert a `number` to a language-sensitive string representation with `Number.toLocaleString()`
+- Convert a `number` or `string` to an integer with `Number.parseInt()`
+- Convert a `number` or `string` to a floating point number with `Number.parseFloat()`
+- Check if a `number` is an integer with `Number.isInteger()`
+- Check if a "number" is actually a `number` with `Number.isNaN()`
+- Check if a `number` is finite with `Number.isFinite()`
+
+-OR-
+
+**String Achievement**
+Display or modify your chosen `string` with at least **three** of the following:
+- Show the number of characters in your `string` with `String.length`;
+- Show a sub-string of your `string` with `String.substr()` or `String.substring()`;
+- Show a sub-string of your `string` with `String.slice()`;
+- Show the first character of your `string`;
+- Show the last character of your `string`;
+- Show the first `index` of a word that can be found in your string with `String.indexOf()`;
+- Replace a word or phrase in your `string` with a new word or phrase using `String.replace()` or `String.replaceAll()`;
+- Concatenate two strings with `String.concat()`;
+- Use `String.startsWith()` to show if your `string` starts with a word of your choice;
+- Use `String.endsWith()` to show if your `string` starts with a word of your choice;
+- Use `String.includes()` to show if a substring is present in your `string`;
+
+**Array Achievement**
+_Coming soon_
