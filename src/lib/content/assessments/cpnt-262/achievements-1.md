@@ -73,7 +73,7 @@ Show your knowledge of Javascript `Number`, `String` and `Array` methods and pro
 
 **You may submit one, two, or three of the following achievements for Round 1 for 3 points each.**
 
-**Number Achievement**
+**Number Achievement**<br>
 Display or modify your chosen `number` with at least **three** of the following:
 - Convert a `number` to a string with `Number.toString()`;
 - Convert a `number` to exponential notation with `Number.toExponential()`;
@@ -88,7 +88,7 @@ Display or modify your chosen `number` with at least **three** of the following:
 
 -OR-
 
-**String Achievement**
+**String Achievement**<br>
 Display or modify your chosen `string` with at least **three** of the following:
 - Show the number of characters in your `string` with `String.length`;
 - Show a sub-string of your `string` with `String.substr()` or `String.substring()`;
