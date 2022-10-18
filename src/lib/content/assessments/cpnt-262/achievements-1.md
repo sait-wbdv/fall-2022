@@ -105,9 +105,6 @@ Display or modify your chosen `string` with at least **three** of the following:
 - Use `String.endsWith()` to show if your `string` starts with a word of your choice;
 - Use `String.includes()` to show if a substring is present in your `string`;
 
-**Array Achievement**<br>
-_Coming soon_
-
 ---
 
 ### 3. Proof of Work
