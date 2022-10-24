@@ -35,8 +35,8 @@ Place your app in a validated HTML file named `index.html`:
 **Each of the following requirements will be worth 1 point** for a total of 5 points. 
 
 ### 1. Form control(s) with event listener
-- [ ] Create a dropdown menu or radio button list;
-- [ ] Add an event listener that triggers a change in the page;
+- [ ] Create a dropdown menu, radio button list or other appropriate form control;
+- [ ] Add an appropriate event listener that triggers a change in the page;
 
 ### 2. DOM Manipulation
 - [ ] Change content on the page using on or more of the following methods:
@@ -68,6 +68,9 @@ Provide a clear indication of which option you've chosen in your README (see bel
 Example:
 ```js
 // TODO: Move function to js/utilities.js
+const someFunction = function() {
+  console.log("I'm a function!");
+}
 ```
 
 **Standard Requirements:**
