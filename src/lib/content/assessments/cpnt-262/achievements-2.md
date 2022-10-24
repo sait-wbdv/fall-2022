@@ -6,79 +6,87 @@ points: 6
 
 ## Marking Rubric
 - **You will be graded for two 3-point mini-assignments** (Achievements) in Round 2 for the _first half_ of CPNT 262;
-- Submissions for Achievements Round 2 will close TBA @ 11:59pm;
+- Submissions for Achievements Round 2 will close Monday, October 31st @ 11:59pm;
 - Achievements from Round 1 are **not eligible** for this Round.
 
 ---
 
 ## Achievements
+Submission Instructions:
+1. In Brightspace: submit a ZIP of relevant files to _Round 1_; 
+2. As a comment: share links to make it easy for the instructor to quickly evaluate your work:
+    - GH repos, Pages, Projects (Beta), etc.
+    - Codepens, Figma, FigJam, etc.
+3. Double check the Achievement for specific instructions.
+4. If applicable, include a README containing the following;
+    - Achievement name and author;
+    - Attributions: **Did anyone help you?** Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
+    - Include self-assessments, observations, research, etc under the heading "Code Journal" in your README. 
+4. Submit Achievements as you finish them; your Instructor will try to keep up!
 
 ---
 
-### Above and Beyond
-Choose one of the following Javascript features and demonstrate their use in an HTML page.
+### 1. Comma-separated list of words
+Starting with an array of words such as:
+```js
+const nouns = [
+  "cat",
+  "dog",
+  "hamster",
+  "parrot",
+  "dolphin"
+]
+```
+Print a complete sentence on the page that includes the list of words such that:
+- they are separated by a comma and a space;
+- the last word is separated by the word "and".
 
-**Restrictions**
-You must choose one of the following:
-- [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) and [element.style.getPropertyValue()](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue)
-- 
-
-**Instructions**
-1. Create a demo HTML page named `index.html` that clearly shows the usefulness of the elements/properties;
-2. Create a `README.md` and include:
-    - a title for your demo as a level 1 heading;
-    - instructions on how to use the demo, if needed;
-    - all Attributions used to create `index.html` including sample code.
-3. Push your files to a GH repo named `js-above-and-beyond` and enable GH Pages;
-4. Zip your files and submit them to Brightspace;
-5. As a comment in your submission, include links to:
-    - the GH repo;
-    - the live demo on GH Pages;
-
-**Bonus**
-- You can do two Above and Beyonds in Round 1 for a total of 10 points!
+Example output: "My favourite pets are the cat, dog, hamster, parrot and dolphin."
 
 ---
 
-### Show and Tell
-Do a 5-minute talk on a topic related to the course. It could be:
-- A demo of something you built;
-- A tutorial on how to use a tool;
-- An awesome [thing here] you found online.
-- etc, etc.
+### 2. Studly caps (SpongeBob case)
+Using a loop of your choice, create a function that changes a sentence into studly caps (aka: [mocking SpongeBob case](https://nymag.com/intelligencer/2017/05/what-is-the-mocking-spongebob-capitalized-letters-chicken-meme.html)).
 
-**Restrictions**
-- The length of your talk must be 5 minutes +/- 2.5 minutes;
+The function should accept a sentence as an argument:
+> **"Can I get some extra credit?"**
 
-**Instructions**
-1. Book a time slot with your Instructor at least a day in advance;
-2. Build, prepare, etc
-3. Show and tell when the time comes!
+and return the same sentence in studly caps:
+> **"cAn i GEt SomE eXtRa creDiT?"**
 
-**Bonus**
-Double points for your first show and tell!
+Output this sentence to a web page.
 
+---
 
-### Javascript Book Report
-Find a video or article about Javascript that interests you. It should be current, helpful and come from a credible source.
+### 3. Intersection Observer proof-of-concept
+Using the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), create a long HTML page that changes content as it scrolls into the viewport. For example, the content can:
+- scroll into place,
+- fade in,
+- be highlighted in some way,
+- etc.
 
-**Restrictions**
-- Videos should be 10 minutes or longer;
-- Articles should be 350 words or longer.
-- The reviewed resource should be on a single page. For example, you can't review the entire [James Quick blog](https://www.jamesqquick.com/blog/).
+Hint: There are many Intersection Observer tutorials that you can find online.
 
-**Instructions**
-To receive marks you must:
-1. Create a markdown file with the title `js-book-report.md`;
-2. In this file include:
-    - The title of the video/article as an level 1 heading;
-    - The name of the author;
-    - The date the video/article was published;
-    - A link to the resource;
-    - Answers to the following questions (150 words max)
-        - Why does this video/article interest you?
-        - Given the date of publication, is it still relevant?
-        - How do you know the author is credible?
-3. Push `js-book-report.md` to a GH repo or a gist;
-4. Zip `js-book-report.md` and submit the file to Brightspace;
-5. As a comment in your submission, include a link to the repo/gist as a comment in your submission;
+---
+
+### 4. Text area counter
+Add a dynamic text character counter that displays the number of characters entered into a `<textarea>` element such that:
+- Counter shows a dynamic count of characters present in a `<textarea>` element;
+- Counter updates as the user types;
+- A character limit is shown next to character count.
+
+![Example of a text area counter](../../../images/assessments/text-area-counter.png)
+
+See [this codepen](https://gist.github.com/acidtone/74727a562940ead812f46c1b1b870d19) for starter code and detailed instructions.
+
+---
+
+### 5. `<template>` Element proof-of-concept
+`Element.innerHTML` is not considered the best method of adding HTML content to a page. 
+
+Create a proof-of-concept project that, instead, stores HTML in a [`<template>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) which is cloned, modified and added to the page using Javascript.
+- Use content of your choice that contains valid HTML elements;
+- `<template>` content may be modified in a way of your choosing;
+- The new content may be displayed when the page loads (no user action required).
+
+For example, you may refactor any of the in-class examples shown thus far that uses `Element.innerHTML` to output content to the page.

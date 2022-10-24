@@ -14,7 +14,8 @@ The goal of this assignment is to use HTML form elements to trigger dynamic chan
 For example, you may create:
 - a drop down menu that highlights different page content depending on the menu selection;
 - a radio button list that changes the page's colour scheme;
-- a checkbox that shows/hides a page element/content;
+- a form that shows different options based on a previous form input;
+    - Example: If "favourite pet" is "dog" show a list of checkboxes to select the "best breeds".
 - etc.
 
 The content should make sense and be of potential value to the (hypothetical) reader.
@@ -24,25 +25,35 @@ The content should make sense and be of potential value to the (hypothetical) re
 ---
 
 ## Instructions
-1.  
+Place your app in a validated HTML file named `index.html`:
+- JS should linked as a deferred external `<script>` in the `<head>` of the document;
+- CSS should be linked as an external stylesheet in a `<link>` element in the `<head>` of the document.
 
 ---
 
 ## Marking Rubric
 **Each of the following requirements will be worth 1 point** for a total of 5 points. 
 
-### 1. Event handler
+### 1. Form control(s) with event listener
+- [ ] Create a dropdown menu or radio button list;
+- [ ] Add an event listener that triggers a change in the page;
 
-### 2. Conditional blocks
+### 2. DOM Manipulation
+- [ ] Change content on the page using on or more of the following methods:
+    - Change `:root`-level CSS Variables using Javascript's `Element.style.setProperty()` method, OR;
+    - Use `Element.classList` to modify an element's presentation;
 
-### 3. DOM Manipulation 
-- Change `:root`-level CSS Variables using Javascript's `Element.style.setProperty()` method;
-- Use `Element.classList` to modify an element's presentation;
-
+### 3. Three states
+- [ ] Create three different page states that are controlled using the form control(s). Based on the above Content Topic examples there should be at least three:
+    - colour schemes;
+    - menu options with page effects;
+    - conditional form options.
 
 ### 4. Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
-- animation
+- **Animation**: have your page change fade/slide in/out of the page, for example, OR;
+- **Custom form styling**: using a method of your choice, create a custom checkbox or radio button instead of the default styling, OR;
+- **Figma prototype**: include a link to a matching Figma prototype of your project.
 
 Provide a clear indication of which option you've chosen in your README (see below):
 - Which did you choose?
