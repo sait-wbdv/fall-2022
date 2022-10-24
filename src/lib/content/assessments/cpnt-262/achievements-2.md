@@ -77,7 +77,7 @@ Add a dynamic text character counter that displays the number of characters ente
 
 ![Example of a text area counter](../../../images/assessments/text-area-counter.png)
 
-See [this codepen](https://gist.github.com/acidtone/74727a562940ead812f46c1b1b870d19) for starter code and detailed instructions.
+See [this gist](https://gist.github.com/acidtone/74727a562940ead812f46c1b1b870d19) for starter code and detailed instructions.
 
 ---
 
