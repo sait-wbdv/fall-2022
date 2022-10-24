@@ -67,6 +67,8 @@ Show your knowledge of Javascript `Number`, `String` and `Array` methods and pro
 
     console.log("After - squared", squared);
     console.log("After - remainder", remainder);
+    console.log("After - as money", `$${number.toFixed(2)}`);
+
     ```
     - You may log multiple "After" values or just one if you're modifying the same value multiple times;
 5. Zip, push and submit as normal to Achievements Round 1.
@@ -75,6 +77,7 @@ Show your knowledge of Javascript `Number`, `String` and `Array` methods and pro
 
 **Number Achievement**<br>
 Display or modify your chosen `number` with at least **three** of the following:
+- Increment or decrement a number using `++`/`--`;
 - Convert a `number` to a string with `Number.toString()`;
 - Convert a `number` to exponential notation with `Number.toExponential()`;
 - Convert a `number` to a string with a given number of decimals with `Number.toFixed()`;
@@ -102,5 +105,32 @@ Display or modify your chosen `string` with at least **three** of the following:
 - Use `String.endsWith()` to show if your `string` starts with a word of your choice;
 - Use `String.includes()` to show if a substring is present in your `string`;
 
-**Array Achievement**<br>
-_Coming soon_
+---
+
+### 3. Proof of Work
+Submit code that you have written based on:
+- a course
+- a tutorial
+- documentation example
+- etc.
+
+**Examples**:
+- [Playlist of Javascript exercises](https://www.youtube.com/playlist?list=PLnHJACx3NwAdQElswAscNtHAZLAQYgpDA) by Coding Addict
+
+**Requirements**:
+- Courses shouldn't have Hints that make it easy to submit code you haven't written yourself;
+- Tutorials shouldn't provide examples of finished code;
+
+**BUT** if Hints or sample code exist, you may submit an Achievement if you've proven that you've written the code yourself and/or changed, improved, refactored the code, such as:
+- Do the same thing, but in a different way;
+- You improve/refactored the code provided;
+- You've customized the code in your own unique project/activity.
+
+**Include in your Submission**:
+- **Before** example of what's provided by the resource (if necessary);
+- **After** example of what you've done to refactor the code;
+- **Code comments** describing what you changed and how/why;
+- If necessary, add a **submission comment** on why you think this code should qualify as an Achievement.
+
+---
+
