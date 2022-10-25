@@ -38,6 +38,7 @@ Place your app in a validated HTML file named `index.html`:
 - [ ] Create a dropdown menu, radio button list or other appropriate form control;
     - Proper `<label>` and `<fieldset>`/`<legend>` elements should be provided for accessibility;
     - See: [Accessible forms](https://sait-wbdv.github.io/slides/f22/cpnt-262/js-forms.html#/1) for further guidelines;
+    - Required fields need the `required` attribute with a visual indication to the user that it is required.
 - [ ] Optional: Use `<form>` element, if appropriate;
 - [ ] Add an appropriate event listener that triggers a change in the page;
 
