@@ -4,76 +4,93 @@ type: assignment
 points: 15
 ---
 
-In this assignment, you will be creating a card of summarized information that displays properly on both desktop and mobile devices.
+In this assignment you'll be fetching data asynchronously from a [public API](https://github.com/public-apis/public-apis) and displaying in on a web page. You may use an API endpoint of your choice that has not been demonstrated in class. Have fun with it! 
 
-While you can use open-source content as inspiration, it should be unique and on-topic.
-
-## Content Topic
-The goal of this assignment is to summarize information for the user. If they want to read more, they can click the (entire) card to read/watch/buy/etc more.
-
-For example, you may write a card for:
-- a blog post on your portfolio website;
-- an item in an online store;
-- a how-to article on your favourite hobby;
-- a Team card for an employee/classmate/you/etc.
-- etc.
-
-The content should make sense and be of potential value to the (hypothetical) reader.
-
-- See: [Tony's "moodboard" on cards](https://acidtone.github.io/code-journal/#july-16th-2022) for some payout examples
-
-**Note: you will _NOT_ need the full information for this assignment. Only content needed to build your card is required.**
+Speak to your instructor if you'd like to try something that doesn't quite fit the requirements listed below.
 
 ---
 
 ## Instructions
-1. Write a short heading and paragragh (max 50 words) for your card;
-2. Select an image for your card;
-    - This image can be a placeholder served by [Lorem Picsum](https://picsum.photos/) or similar image generator.
-2. Use valid HTML and CSS to make a card of information that displays properly on desktop and mobile;
-3. Place your card in a validated HTML file named `index.html` (CSS may be embedded in a `style` element in the `head` of `index.html`).
+1. 
 
 ---
 
 ## Marking Rubric
-**Each of the following requirements will be worth 2 points** for a total of 10 points. 
+**Each of the following requirements will be worth 3 points** for a total of 15 points. 
 
-### Card content
-Enhance the visual hierarchy of your card by using:
-- [ ] One level 3 heading for your card title in a Display font;
-- [ ] One placeholder HTML image with `alt`, `width` and `height` attributes;
-- [ ] A short paragraph containing bold and/or italic text in a body text font;
-- [ ] Card content should be wrapped in an `article` element;
+### `fetch()` request and error handling
+- [ ] Using the `fetch()` Web API retrieve an array or object from a public API using a `GET` request.
+    - Your `fetch()` can use either `then`/`catch` block or `async`/`await`;
+- All errors must be handled gracefully:
+    - [ ] Rejected `fetch()` Promises are handled by a `catch` block (for example, there is a network error) or similar;
+    - [ ] The request doesn't return a `200 OK` response code such as `404 Not found`.
+    - [ ] API data validated in case it's missing, is of an unexpected data type or otherwise `undefined`.
+    - All errors should be human readable and intuitive. 
+        - [ ] General "There was a problem." if data can't be displayed for any reason;
+        - [ ] Data should be validated before output to avoid printing empty or `undefined` values.
 
-### Responsiveness and Accessibility
-Your content should be responsive and accessible to screen readers:
-- [ ] Line length should not exceed 40 characters on wide screens;
-- [ ] The image cannot be distorted and should scale to fit the card;
-- [ ] No horizontal scroll bars should be visible at any device screen width;
-- [ ] On mobile, content should be at least `0.5rem` away from the edge of the screen;
-- [ ] Text should have at least a AA contrast ratio rating for its size.
+### 2. Loop
+The information retrieved should include an array of objects for you to work with.
+- [ ] Use a `for` loop, or similar statement (see Above and Beyond) to process your data. For example:
+    - You can populate an `output` accumulator variable that contains a gallery for you to display on the page;
+    - You can create a simplified copy of your data to use in a chart.
 
-### Clickable card
+### 3. HTML Output
+You can either:
+Display a gallery of at least 10 items on an `index.html` page, including:
+- [ ] A name or title
+    - Name or title should be displayed in an appropriate heading;
+- [ ] An off-site link that's directly related to the data
+- [ ] At least one other property that can be displayed on the page:
+    - An image;
+        - Image should not be distorted and include a custom `alt` attribute derived from the retrieved data;
+    - A date;
+        - Dates (if applicable) should be formatted to be human-readable;   
+    - A description, or;
+    - Some other relevant information included in your chosen API:
+        - All other data should be displayed appropriately according to the content.
 
-### Above and Beyond
+**OR**
+
+Display a summary of information in a chart using [ChartJS](https://www.chartjs.org/), or similar library;
+- [ ] Chart should be displayed on the page with no scroll bars;
+- [ ] Information displayed in the chart should be derived from the API data;
+- [ ] Information should be relevant to a real potential user;
+
+### 4. Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
+- Use a higher order function such as:
+    - `.forEach()` or `.map()` instead of a `for` loop;
+    - `.find()` or `.filter()` to show a subset of items in your gallery;
+- Use an event listener to load your gallery/chart when the user clicks a button instead of on page load;
 
-Provide a clear indication of which option you've chosen in your README (see below):
+**Provide a clear indication** of which option you've chosen in your README (see below):
 - Which did you choose?
 - What file(s) and line number(s) can it be found?
 
-### Documentation and Code Quality
+### 5. Documentation and Code Quality
+**In addition to the standard requirements**, include **three** TODO comments in your Javascript that:
+- summarizes a feature you'd like to add to the project, OR;
+- outlines how a code segment can be refactored, OR;
+- highlights a bug that needs to be fixed;
+
+Example:
+```js
+// TODO: Move function to js/utilities.js
+const someFunction = function() {
+  console.log("I'm a function!");
+}
+```
+
+**Standard Requirements:**
 - Include a `README.md` in your project that contains the following information:
   - Course title;
   - Assignment name;
   - Author name;
   - A link to the GH Pages site
-- **Important**: Any attributions for code and/or assets you used that are not your own.
-- Use best practices with file/directory names and indentation:
-  - 2 spaces per indent
-    - Nested HTML elements and CSS declarations should be indented
-  - See: [Files and Directories - Naming Conventions](https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984)
-- CSS declarations should be organized by category (box model, fonts, borders, flex, etc), separated by a space and commented.
+- **Important**: Any attributions for code and/or assets you used that are not your own;
+- Follow guidelines in [Javascript Basics](https://sait-wbdv.github.io/slides/f22/cpnt-262/js-introduction.html) slides;
+- Follow guidelines in [Files and Directories - Naming Conventions](https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984)
 
 ---
 
@@ -84,3 +101,33 @@ Provide a clear indication of which option you've chosen in your README (see bel
   - GH repo
   - GH Pages site
 
+---
+
+## Appendix
+### APIs used by previous students
+This does not guarantee these APIs are suitable for this assignment, but past students have had at least limited success using them:
+- [FFXIV Collect](https://ffxivcollect.com/) - Final Fantasy XIV data on collectables
+- [Jikan](https://jikan.moe/) - Unofficial MyAnimeList API
+- [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) - Data on all interactive items from The Legend of Zelda: BOTW
+- [FakeStoreAPI](https://fakestoreapi.com/) - Fake store rest API for your e-commerce or shopping website prototype
+- [Studio Ghibli](https://ghibliapi.herokuapp.com/) - Resources from Studio Ghibli films
+- [Clash Royale](https://developer.clashroyale.com/) - Clash Royale Game Information
+  - API Key
+- [Zoo Animals](https://zoo-animal-api.herokuapp.com/) - Facts and pictures of zoo animals
+- [Digimon Information](https://digimon-api.vercel.app/) -	Provides information about digimon creatures
+- [Final Space](https://finalspaceapi.com/docs/) -	Final Space API
+- [Dungeons and Dragons](https://www.dnd5eapi.co/docs/) -	Reference for 5th edition spells, classes, monsters, and more
+    - No CORS
+- [TVMaze](http://www.tvmaze.com/api) -	TV Show Data
+- [Rick and Morty](https://rickandmortyapi.com/) -	All the Rick and Morty information, including images
+- [NASA](https://api.nasa.gov/) -	NASA data, including imagery
+    - No CORS
+- [Deck of Cards](http://deckofcardsapi.com/) -	Deck of Cards
+- [Open Library](https://openlibrary.org/developers/api) -	Books, book covers and related data
+    - No CORS
+- [Disney](https://disneyapi.dev/) -	Information of Disney characters
+- [Harry Potter Characters](https://hp-api.herokuapp.com/) -	Harry Potter Characters Data with with imagery
+- [RandomUser](https://randomuser.me/) -Generates and list user data
+- [Imgflip](https://imgflip.com/api) -	Gets an array of popular memes
+- [Metropolitan Museum of Art](https://metmuseum.github.io/)
+    - No CORS
