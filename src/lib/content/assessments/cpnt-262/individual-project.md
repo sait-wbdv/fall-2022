@@ -25,7 +25,7 @@ Speak to your instructor if you'd like to try something that doesn't quite fit t
 ## Marking Rubric
 **Each of the following requirements will be worth 3 points** for a total of 15 points. 
 
-### `fetch()` request and error handling
+### 1. `fetch()` request and error handling
 - [ ] Using the `fetch()` Web API retrieve an array or object from a public API using a `GET` request.
     - Your `fetch()` can use either `then`/`catch` block or `async`/`await`;
 - All errors must be handled gracefully:
