@@ -56,7 +56,8 @@ Your content should be responsive and accessible to screen readers:
 ### Clickable card
 
 ### Above and Beyond
-Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
+Show off your coding skills by using one or more (use of more than one does not guarantee more marks) of the following:
+- `.map()`, `.forEach()`, `.find()`
 
 Provide a clear indication of which option you've chosen in your README (see below):
 - Which did you choose?
