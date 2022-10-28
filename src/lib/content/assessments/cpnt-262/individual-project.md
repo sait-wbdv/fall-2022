@@ -11,7 +11,14 @@ Speak to your instructor if you'd like to try something that doesn't quite fit t
 ---
 
 ## Instructions
-1. 
+1. Choose a JSON API that serves information you'd like to display in your project;
+    - [Full list of Public APIs](https://github.com/public-apis/public-apis);
+    - [Shortlist of APIs used by past students](#appendix);
+    - Or you may use an suitable API not found in these lists;
+2. Construct an `index.html` page that will `fetch()` an array of objects with proper error handling;
+    - JS should linked as a deferred external `<script>` in the `<head>` of the document;
+    - CSS should be linked as an external stylesheet in a `<link>` element in the `<head>` of the document.
+3. Use a loop to display either a gallery or chart of the API data on the page;
 
 ---
 
@@ -33,7 +40,8 @@ Speak to your instructor if you'd like to try something that doesn't quite fit t
 The information retrieved should include an array of objects for you to work with.
 - [ ] Use a `for` loop, or similar statement (see Above and Beyond) to process your data. For example:
     - You can populate an `output` accumulator variable that contains a gallery for you to display on the page;
-    - You can create a simplified copy of your data to use in a chart.
+    - You can clean problematic data in your API response;
+    - You can create a simplified/summarized copy of your data to use in a chart.
 
 ### 3. HTML Output
 You can either:
@@ -59,28 +67,20 @@ Display a summary of information in a chart using [ChartJS](https://www.chartjs.
 
 ### 4. Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
+- Use an event listener to load your gallery/chart when the user clicks a button instead of on page load;
 - Use a higher order function such as:
     - `.forEach()` or `.map()` instead of a `for` loop;
     - `.find()` or `.filter()` to show a subset of items in your gallery;
-- Use an event listener to load your gallery/chart when the user clicks a button instead of on page load;
+- Use a `<template>` element to store a template of your gallery card HTML instead of using `.innerHTML`;
+    - See [`<template>`: The Content Template element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) on MDN
 
 **Provide a clear indication** of which option you've chosen in your README (see below):
 - Which did you choose?
 - What file(s) and line number(s) can it be found?
 
 ### 5. Documentation and Code Quality
-**In addition to the standard requirements**, include **three** TODO comments in your Javascript that:
-- summarizes a feature you'd like to add to the project, OR;
-- outlines how a code segment can be refactored, OR;
-- highlights a bug that needs to be fixed;
-
-Example:
-```js
-// TODO: Move function to js/utilities.js
-const someFunction = function() {
-  console.log("I'm a function!");
-}
-```
+**In addition to the standard requirements**, include a sample of a javascript object served by your chosen API in a [code block in markdown](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks).
+- See [example in the appendix](#example-api-sample)
 
 **Standard Requirements:**
 - Include a `README.md` in your project that contains the following information:
@@ -95,15 +95,36 @@ const someFunction = function() {
 ---
 
 ## Submission Requirements
-- Push this assignment to a GitHub repo named `cpnt260-a2` and enable GitHub Pages;
+- Push this assignment to a GitHub repo named `cpnt262-individual-project` and enable GitHub Pages;
 - ZIP all files required for the site to operate and submit to Brightspace;
 - Include the following as a comment in your Brightspace submission:
   - GH repo
   - GH Pages site
+  - Link to the API used on your project
 
 ---
 
 ## Appendix
+### Example API Sample
+A Disney character returned by the [Disney API](https://disneyapi.dev/):
+```js
+{
+  films: [],
+  shortFilms: [],
+  tvShows: [
+    "Pickle and Peanut"
+  ],
+  videoGames: [],
+  parkAttractions: [],
+  allies: [],
+  enemies: [],
+  _id: 12,
+  name: "90's Adventure Bear",
+  imageUrl: "https://static.wikia.nocookie.net/disney/images/3/3f/90%27s_Adventure_Bear_profile.png",
+  url: "https://api.disneyapi.dev/characters/12"
+}
+```
+
 ### APIs used by previous students
 This does not guarantee these APIs are suitable for this assignment, but past students have had at least limited success using them:
 - [FFXIV Collect](https://ffxivcollect.com/) - Final Fantasy XIV data on collectables

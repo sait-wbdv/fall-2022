@@ -21,7 +21,7 @@ export const cpnt262DueDates = [
   },
   {
     slug: 'individual-project',
-    due: 'Wednesday, November 2nd @ 11:59pm',
-    status: 'draft'
+    due: 'Thursday, November 3rd @ 11:59pm',
+    status: 'published'
   }
 ]
