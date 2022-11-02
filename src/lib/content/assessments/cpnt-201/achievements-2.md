@@ -19,87 +19,88 @@ Submission Instructions:
 
 1. In Brightspace: submit a ZIP of relevant files to _Round 2_;
 2. As a comment: share links to make it easy for the instructor to quickly evaluate your work:
-   - GH repos, Pages, Projects (Beta), etc.
-   - Codepens, Figma, FigJam, etc.
+   - GH repos
 3. Double check the Achievement for specific instructions.
-4. Submit Achievements as you finish them; your Instructor will try to keep up!
+4. Submit Achievements as you finish them, or all at once
 
 ---
 
-### Tutorial build session
+### Tutorial Framework Session
 
-**Submissions needed**
-Got a good tutorial you'd like to submit for marks? Ask your Instructor about adding it onto the list.
-
-- **Bonus: 5 points** for anyone who finds and adequate tutorial to add to the list.
-
-**Bonus**
-
-- You can do two Build Session in Round 1 for a total of 10 points!
+- Find a tutorial on how to set up a javascript frontend framework
+  - aim for 20min-1hour tutorials
+- Write a journal entry in your README on what topics made sense and where you ran into trouble while working through the tutorial (points must be specific and have details)
+- Add a link to a deployed page if you managed to deploy
 
 ---
 
 ## Plugin Away
 
-3rd-party plugin/library implementation. Show that you've installed and implemented a 3rd party plugin or service from the following list:
+3rd-party plugin/library implementation. Install any of the plugins that you used previously in the course via cdn as an npm package.
 
 **Instructions**
 
-1. Create your project in a `index.html` file with a `README.md`, including;
-   - a title for your demo as a level 1 heading;
-   - instructions on how to use the demo, if needed;
-   - all Attributions used to create `index.html` including sample code, tutorials, etc.
-2. Name your repo after the technology you used;
+1. Create a web page in github
+   - This should be consistent with your workflow from 260 and 262
+2. Add node to your project with `npm init`
+3. Add the plugin or library as documented
+4. Use the plugin somewhere on your page (make it clear where this is and what is intended in your submission notes)
 
 **Submissions needed**
 Got a good tutorial you’d like to submit for marks? Ask your Instructor about adding it onto the list.
 
 - **Bonus: 5 points** for anyone who finds and adequate plugin to add to the list.
 
-**Bonus**
-
-- You can do two Above and Beyonds in Round 1 for a total of 10 points!
-
 ---
 
-### Project Board
+## Add a CSS Framework to a project
 
-Create a 5-card GH Project (Beta) Board containing action items that you need to complete for one of your upcoming assignments or achievements.
+- **You cannot use tailwind for this**
+  - options include:
+    - Bootstrap
+    - WindiCSS
+    - Bulma
+    - and many more!
+- As discussed in class, there are many was to style a webpage. Check out one of the other css frameworks or UI kits that exist and add it to a web page
 
 **Requirements**
-Submit a direct link to a Project (with screencap), with:
 
-- Columns: Backlog (or To Do), In Progress (or Doing), Done;
-- Card descriptions: each card should have a Definition of Done (DoD), such as:
-  - a sentence that explicitly states when the card can be moved to the Done column, and/or.
-  - a checklist (`- [ ]` in markdown) of todos;
-
-**Bonus**
-
-- Double points if your DoD is a written as a UX User Story.
+- 2 sections of content need to be styled using the css framework
+  - ie: header and a set of cards
+- Content must be mobile responsive
+- Use practices outlined in the documentation
 
 ---
 
-### Show and Tell
+## Create a Node Express Hello-World Project
 
-Do a 5-minute talk on a topic related to the course. It could be:
+- Node is Javascript on the backend, and while we don't have to manually build backends for many projects, it is good to know the basics of how they work
+- Skim the [Node Express Documentation](https://expressjs.com/) and follow it's [Getting Started Guide](https://expressjs.com/en/starter/installing.html) to create a hellow world example
 
-- A demo of something you built;
-- A tutorial on how to use a tool;
-- An awesome [thing here] you found online.
-- etc, etc.
+### Requirements
 
-**Restrictions**
-
-- The length of your talk must be 5 minutes +/- 2 minutes;
-
-**Instructions**
-
-1. Book a time slot with your Instructor at least a day in advance;
-2. Build, prepare, etc
-3. Show and tell when the time comes!
-
-**Bonus**
-Double points for your first show and tell!
+- The server can serve content on localhost
+- All the instructions were followed in the docs
+- Document your process in the README.md file
 
 ---
+
+## Basic Algorithm Scripting
+
+Improve your Javascript Skills!
+
+### Instructions
+
+- Complete 5-16 exercises from [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting)
+- Add your solutions to individual javascript files
+- Set this up as an npm project and git repo
+- Add scripts that run the files that you've created
+- \*\*Copy Pastes of the solutions that FCC offers will be treated as plagiarism
+
+### Bonus
+
+- Make the files take user input and calculate responses
+
+### More Scripting
+
+- This achievement can also be done with the Object Oriented, Functional, and Intermediate Scripting Modules
