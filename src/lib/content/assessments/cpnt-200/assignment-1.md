@@ -54,12 +54,15 @@ For the purposes of this assignment, limit your Sitemap to a 3-level depth
 ### 3. Content type definitions: 7 points
 Analyze the content used on the website, focusing on the types of content it incorporates.
 - Include screencaps of each type of website content and include them in your document;
-- List the major content types used (define at least 5). For each content type:
-    - Is it a Collection or Single type?
+- Try to include examples of at least 5 different field types in total;
+- List the names of each Single Type
+    - Are there any Collection-types included on Single pages?
+- Define at least 3 Collection Types (you do not have to go more than 1-level deep):
     - What fields are used?
-    - For each label, what type will it be?
+    - For each field, what type will it be?
     - Are any Content-types connected with a Relation field? Is it one-to-many, one-to-many or many-to-many?
-- Are any Components needed?
+    - Are any Components needed?
+        - What fields would be included in the component?
 
 ### 4. Adapt and critique: 3 points
 This section should be 150-200 words and have high visual hierarchy.
