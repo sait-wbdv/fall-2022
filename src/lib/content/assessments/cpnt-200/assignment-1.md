@@ -62,6 +62,7 @@ Analyze the content used on the website, focusing on the types of content it inc
 - Are any Components needed?
 
 ### 4. Adapt and critique: 3 points
+This section should be 150-200 words and have high visual hierarchy.
 - Is this site well structured?
 - What could be improved?
 - Why would someone choose this company over their competition?
