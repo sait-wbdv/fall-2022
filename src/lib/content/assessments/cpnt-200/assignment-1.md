@@ -32,9 +32,9 @@ Your chosen website should be of appropriate complexity to study the content typ
 ---
 
 ## Marking Rubric
-**Each of the following requirements will be worth 5 points** for a total of 20 points.
+Each of the following requirements will a total of 20 points.
 
-### 1. Client Summary
+### 1. Client Summary: 3 points
 Summarize the company you've chosen:
 - Company name
 - Company industry
@@ -46,18 +46,22 @@ Summarize the company you've chosen:
 
 The summary should be 150-200 words and have high visual hierarchy.
 
-### 2. Sitemap
+### 2. Sitemap: 7 points
 Using Figma, FigJam or similar software, reverse engineer the sitemap with a top level view of how pages are connected to one another.
 
-### 3. Content type definitions
+For the purposes of this assignment, limit your Sitemap to a 3-level depth
+
+### 3. Content type definitions: 7 points
 Analyze the content used on the website, focusing on the types of content it incorporates.
 - Include screencaps of each type of website content and include them in your document;
 - List the major content types used (define at least 5). For each content type:
     - Is it a Collection or Single type?
-    - What labels are used?
-    - For each label, what 
+    - What fields are used?
+    - For each label, what type will it be?
+    - Are any Content-types connected with a Relation field? Is it one-to-many, one-to-many or many-to-many?
+- Are any Components needed?
 
-### 4. Adapt and critique
+### 4. Adapt and critique: 3 points
 - Is this site well structured?
 - What could be improved?
 - Why would someone choose this company over their competition?
