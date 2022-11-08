@@ -51,6 +51,11 @@ Using Figma, FigJam or similar software, reverse engineer the sitemap with a top
 
 For the purposes of this assignment, limit your Sitemap to a 3-level depth
 
+Include labels/colours for:
+- Single pages (i.e. About, Contact, etc)
+- List entry pages (i.e. Gallery index page)
+- Item Collection (i.e. one "page" that represents multiple items in a collection)
+
 ### 3. Content type definitions: 7 points
 Analyze the content used on the website, focusing on the types of content it incorporates.
 - Include screencaps of each type of website content and include them in your document;
