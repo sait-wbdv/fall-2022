@@ -53,6 +53,8 @@ Include at least one example of each of the following:
 - An appropriate bi-directional relation between two Content-types, logically labelled;
 - A re-usable component that is used in one or more Content-types;
 
+In your README, provide some details of where the Relation and Components can be found in your project and how they are used.
+
 ## 5. API Token
 Create a read-only Bearer token for your project and include it as a comment in your Brightspace submission.
 
