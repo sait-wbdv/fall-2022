@@ -64,5 +64,6 @@ Create a read-only Bearer token for your project and include it as a comment in 
 - [Deploy your project](https://sait-wbdv.github.io/slides/f22/cpnt-200/strapi-deployment.html) to [render.com](https://render.com)
 - Submit a ZIP of your project (without the `node-modules` directory)
 - As a comment in your brightspace submission, include:
+    - A GitHub repo link
     - The URL of your deployed Strapi project
     - The login information for a Super-user (either yours or an invite link)
