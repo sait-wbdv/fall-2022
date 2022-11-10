@@ -13,6 +13,11 @@ The content achievements represent the content responsibilities in a project. No
 
 ## Submission instructions
 - Add the relevant content to your Strapi project;
+- In the README of your Strapi project, include:
+    - Course title
+    - Assessment title
+    - Author
+    - Attributions
 - Deploy your project;
 - As a comment in your submission, include an admin-level login for your instructor to mark your achievements:
     - Name: Tony Grimes
