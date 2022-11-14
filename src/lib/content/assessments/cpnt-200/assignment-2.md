@@ -62,8 +62,8 @@ Create a read-only Bearer token for your project and include it as a comment in 
 
 ## Submission Instructions
 - If possible: [Deploy your project](https://sait-wbdv.github.io/slides/f22/cpnt-200/strapi-deployment.html) to [render.com](https://render.com)
-- Files
-    - Submit a ZIP of your project (without the `node-modules` directory)
+- Submit the following files:
+    - A ZIP of your project (without the `node-modules` directory)
     - The `.env` file of your project
     - The `data.db` file located in the `.tmp` directory of your project
 - As a comment in your Brightspace submission, include:
