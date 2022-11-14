@@ -1,7 +1,7 @@
 ---
 title: Assignment 1 - Client site profile
 type: assignment
-points: 20
+points: 30
 ---
 
 In this assignment, you will choose a company website to critique, analyze and adapt for your own Strapi project.

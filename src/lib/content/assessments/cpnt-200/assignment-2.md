@@ -1,7 +1,7 @@
 ---
 title: Assignment 2 - Strapi Project and Model
 type: assignment
-points: 20
+points: 30
 ---
 
 In this assignment, you will create a Strapi project and define a Model for an app/website of your choice.
