@@ -1,30 +1,29 @@
 ---
-title: Assignment 4 - Page Building in Vue
+title: Assignment 4 - Page Building in Vue/Nuxt
 type: assignment
 points: 15
 ---
 
 ## Instructions
 
-Web Frameworks like Vue give you the ability to create reusable components. This helps DRY out your code and separates the presentation and information layers of your website - increasing maintainability and code organization.
+Web Frameworks like Vue and Nuxt give you the ability to create reusable components. This helps DRY out your code and separates the presentation and information layers of your website - increasing maintainability and code organization.
 
-For this assignment, you will need to make 2 web pages that use the same components for repeating design patterns. Use the `HomeView.vue` and `AboutView.vue` pages that the vue cli provides and create your components in the `components/` directory.
+For this assignment, you will need to make 2 web pages that use the same components for repeating design patterns. Use the `HomeView.vue` and `AboutView.vue` pages that the vue cli provides and create your components in the `components/` directory. _Adjust syntax for whether you're using vue 3 or nuxt 3_
+
+Deploy your site to Netlify.
 
 ### Specifications
+
+**Change syntax for Nuxt if you use that**
 
 - Reuse the same general UI elements in the `App.vue` file (navigation bar and footer)
 - Use `<RouterView />` in the `App.vue` page to inject your page content into the UI layout
 - Reuse layout components in your pages with props, slots, and class bindings for content and style variations
   - Suggested Components (At least 5 components required):
-    - Page Header (h1 tag etc)
-    - Page Sections
-    - Cards
+    - TheNav, TheFooter, TheMain, TheMainHeader
+    - AppSection, AppSectionHeader,.. (truncate if preferred)
+    - AppCard, AppList, AppListItem, AppButon, AppLink...
 - Reuse utility components in your pages and layout components
-  - Buttons
-  - Images
-  - Display typography
-  - Links
-  - Generic List
 
 ## Rubric
 
@@ -48,12 +47,13 @@ For this assignment, you will need to make 2 web pages that use the same compone
   - assignment info
   - attributions
 - Design Assets
-  - Make one of the following to track your design visuals:
+  - Make one of the following to track your design visuals (if applicable):
     - Mood board
     - Set of Issues
-  - Content:
+  - Content (if applicable):
     - screen shots of inspiration components
     - images of wireframes
+- **Site Deployed to Netlify**
 - Submission does not include node_modules folder
 
 ## Submission
