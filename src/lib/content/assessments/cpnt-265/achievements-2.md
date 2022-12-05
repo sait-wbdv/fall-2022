@@ -32,6 +32,7 @@ points: 45
     - Lighthouse performance tests
     - Postman API tests
     - etc
+    
 </section>
 
 ---
