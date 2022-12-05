@@ -16,9 +16,9 @@
   <li><strong>Part 1 - Vanilla Javascript: 40%</strong></li>
   <li><strong>Part 2 - VueJS and Nuxt: 60%</strong></li>
 </ul>
+
 {/if}
 
-<h2>Part 1 - Vanilla Javascript</h2>
 {#if data.assessments.length}
 	{#each data.assessments as assessment}
 		{#if assessment.type === 'assignment' || assessment.type === 'achievements'}
