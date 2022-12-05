@@ -26,7 +26,12 @@ points: 45
             - Example: [How to build an IntersectionObserver in Composition API](https://stackoverflow.com/questions/70275889/how-to-build-an-intersectionobserver-in-composition-api)
                 - See: [Introduction to the Intersection Observer JavaScript API](https://www.youtube.com/watch?v=T8EYosX4NOo) by Kevin Powell
         - Svelte
-
+- **Tool time: _5 points_**
+    Demonstration of skillz in a specialized software tool _not_, covered in class:
+    - Docker
+    - Lighthouse performance tests
+    - Postman API tests
+    - etc
 </section>
 
 ---
@@ -52,12 +57,3 @@ points: 45
 </section>
 
 ---
-
-
-
-- **Tool time: _5 points_**
-    Demonstration of skillz in a specialized software tool _not_, covered in class:
-    - Docker
-    - Lighthouse performance tests
-    - Postman API tests
-    - etc
