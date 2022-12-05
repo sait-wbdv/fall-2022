@@ -9,7 +9,7 @@ points: 45
 <section class="cards">
 
 - **3rd-party plugin/library implementation: _5 points_**
-    - Show that you've installed and implemented a 3rd party plugin from the following list
+    - Show that you've installed and implemented a 3rd party plugin from the following list (_if_ you haven't already submitted a similar achievement in a previous course):
         - Greensock, anime.js, etc
         - Chart.js or similar
         - Tone.js
