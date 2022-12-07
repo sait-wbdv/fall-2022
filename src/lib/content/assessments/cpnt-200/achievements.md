@@ -28,6 +28,7 @@ The content achievements represent the content responsibilities in a project. No
 
 ## 1. Media: Images
 - Weight: 1 point per image
+- Max: 10 images
 
 **Instructions**
 1. Collect image assets that relate to your project;
