@@ -5,6 +5,8 @@ points: 45
 ---
 
 ### Proof of Work
+Earn points for working on your Final Project!
+
 <section class="cards">
 
 - **Card Completion: 5 points(ish)**
@@ -18,11 +20,12 @@ points: 45
     - Book a time with your Instructor to manually show your Proof of Work.
     - Open Lab Times are 8-9am and the afternoon of each class day.
 
-<section>
+</section>
 
 ---
 
 ### Plugin' away
+
 <section class="cards">
 
 - **3rd-party plugin/library implementation: _5 points_**
